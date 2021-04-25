@@ -10,4 +10,11 @@ if(re.search(regex, email)):
 else:
   print("Invalid Email")
 ```
+<h2> Regex to all numbers from a given string </h2>
+<br/>
 
+```
+regex = r'\d+'
+search_result = re.findall(regex, test_string)
+result = list(map(int, search_result))
+```
