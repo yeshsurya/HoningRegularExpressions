@@ -28,3 +28,10 @@ if(regex_match(regex, test_string)):
 else:
   print("Invalid URL")
 ```
+<h2> Regex to remove whitespaces in python </h2>
+<br/>
+
+```
+regex = r'^\s+'
+re.sub(regex, "", demo)
+```
