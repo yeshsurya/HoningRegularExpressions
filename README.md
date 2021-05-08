@@ -35,3 +35,11 @@ else:
 regex = r'^\s+'
 re.sub(regex, "", demo)
 ```
+
+<h2> Regex to remove tab and newline from string </h2> 
+<br/>
+
+```
+' '.join(myString.split())
+```
+
