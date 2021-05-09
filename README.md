@@ -43,3 +43,10 @@ re.sub(regex, "", demo)
 ' '.join(myString.split())
 ```
 
+<h2> Collection of Regexes for phone number pattern searches </h2> 
+
+```
+/^[+]?(\d{1,2})?[\s.-]?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/
+```
+
+
