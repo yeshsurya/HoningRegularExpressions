@@ -51,4 +51,8 @@ re.sub(regex, "", demo)
 ((\+92)|0)[.\- ]?[0-9][.\- ]?[0-9][.\- ]?[0-9]
 ```
 
+<h2> Regex to check if given string is in camel case </h2>
 
+```
+(?:[A-Z][a-z]*)+
+```
