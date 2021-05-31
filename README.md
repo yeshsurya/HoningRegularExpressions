@@ -56,3 +56,11 @@ re.sub(regex, "", demo)
 ```
 (?:[A-Z][a-z]*)+
 ```
+<h2> Regex to get the contents within an html tags </h2> 
+
+```python
+#For h1 headder
+header_data = re.findall("<h1>(.*)</h1>",html)
+#For any header
+header_data = re.findall("<h.>(.*)</h.>",html)
+```
